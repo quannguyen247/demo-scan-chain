@@ -1,0 +1,14 @@
+# Compiled simulation binaries
+results/*_tb
+*_tb
+*.out
+*.vvp
+
+# Large/temporary waveform formats
+*.fst
+*.lxt
+
+# Tool logs / temporary files
+*.log
+*.tmp
+*.bak
