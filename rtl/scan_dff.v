@@ -10,15 +10,12 @@ module scan_dff (
 );
 
     always @(posedge clk) begin
-        if (rst) begin
+        if (rst) 
             q <= 1'b0;
-        end
-        else if (scan_en) begin
+        else if (scan_en) 
             q <= scan_in;
-        end
-        else begin
+        else 
             q <= d;
-        end
     end
 
 endmodule

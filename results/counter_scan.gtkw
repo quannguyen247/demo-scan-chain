@@ -1,0 +1,42 @@
+[*]
+[*] GTKWave Analyzer v3.3.116 (w)1999-2023 BSI
+[*] Sun May 24 10:27:46 2026
+[*]
+[dumpfile] "/mnt/d/GitProjectFull/secure-scan-chain/results/counter_scan.vcd"
+[dumpfile_mtime] "Sun May 24 10:16:22 2026"
+[dumpfile_size] 2837
+[savefile] "/mnt/d/GitProjectFull/secure-scan-chain/counter_scan.gtkw"
+[timestart] 0
+[size] 1161 600
+[pos] -1 -1
+*-15.807953 125000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] counter_scan_tb.
+[treeopen] counter_scan_tb.dut.
+[treeopen] counter_scan_tb.dut.u_scan_ff0.
+[treeopen] counter_scan_tb.dut.u_scan_ff1.
+[treeopen] counter_scan_tb.dut.u_scan_ff2.
+[treeopen] counter_scan_tb.dut.u_scan_ff3.
+[sst_width] 297
+[signals_width] 278
+[sst_expanded] 1
+[sst_vpaned_height] 157
+@28
+counter_scan_tb.clk
+counter_scan_tb.rst
+counter_scan_tb.en
+counter_scan_tb.scan_en
+counter_scan_tb.scan_in
+counter_scan_tb.scan_out
+counter_scan_tb.q[3:0]
+counter_scan_tb.scanned_data[3:0]
+@800029
+#{scan_chain_q[3:0]} counter_scan_tb.dut.u_scan_ff3.q counter_scan_tb.dut.u_scan_ff2.q counter_scan_tb.dut.u_scan_ff1.q counter_scan_tb.dut.u_scan_ff0.q
+@29
+counter_scan_tb.dut.u_scan_ff3.q
+counter_scan_tb.dut.u_scan_ff2.q
+counter_scan_tb.dut.u_scan_ff1.q
+counter_scan_tb.dut.u_scan_ff0.q
+@1001209
+-group_end
+[pattern_trace] 1
+[pattern_trace] 0
